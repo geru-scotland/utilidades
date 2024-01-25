@@ -46,7 +46,7 @@ Se aceptan varios parámetros para ejecutar sus diferentes funcionalidades:
    - `test` compila lo que se encuentre en el directorio `Math`.
    - Ejemplo: `./build_script.sh browser`
 
-4. **start** (opcional)
+4. **start** (opcional, como segundo parámetro)
    - Se usa como segundo parámetro.
    - Ejecuta el binario producido inmediatamente después de la compilación.
    - Aplicable solo con `browser`, `browser_gobj` o `test`.

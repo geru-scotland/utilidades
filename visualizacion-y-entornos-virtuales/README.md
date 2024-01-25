@@ -2,7 +2,7 @@
 `build_script.sh` es un script pensado para facilitar la compilación y gestión del proyecto de la asignatura de Visualización y Entornos Virtuales, el cual se basa en  ```CMake ``` y  ```Makefile ```. Permite compilar por programa o incluso el proyecto completo, también limpiar directorios de compilación, y ejecutar los programas resultantes tras la compilación. La idea es que agilizar el proceso de desarrollo de los ejercicios y/o proyecto y evitar la necesidad de cambiar de directorio y ejecutar múltiples comandos. Se irá mejorando e introduciendo nuevas funcionalidades conforme vayamos avanzando.
 
 ## Instalación y Ejecución
-Para utilizar `build_script.sh`, primero se ha de otorgar permisos para que sea ejecutable. Con seguir estos pasos es sufciente:
+Para utilizar `build_script.sh`, tiene que estar en el directorio root o raíz del proyecto. Después se ha de otorgar permisos para que sea ejecutable. Con seguir estos pasos es sufciente:
 
 1. **Hacer el script ejecutable:**
    ```bash

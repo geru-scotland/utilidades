@@ -16,8 +16,17 @@ Para utilizar `build_script.sh`, primero se ha de otorgar permisos para que sea 
    De manera alternativa, se puede ejecutar directamente con `sh`:
    ```bash
    sh build_script.sh
-   ```
-
+   ``` 
+**NOTA**:
+En el código, cambiad los nombres de los ejecutables por los que hayáis puesto en ```CMakeLists.txt```:
+```
+   # ============= #
+   #  EXEC FILES   #
+   # ============= #
+   readonly EXEC_BROWSER="browser_bin"
+   readonly EXEC_BROWSER_OBJ="browser_gobj"
+   readonly EXEC_TEST="test"
+```
 ## Parámetros
 Se aceptan varios parámetros para ejecutar sus diferentes funcionalidades:
 

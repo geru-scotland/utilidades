@@ -63,6 +63,10 @@ Aquí algunos ejemplos de cómo usar `build_script.sh`:
   ```bash
   ./build_script.sh clean
   ```
+- Compilar el programa test:
+  ```bash
+  ./build_script.sh test
+  ```  
 - Compilar y ejecutar el browser:
   ```bash
   ./build_script.sh browser start
